@@ -40,4 +40,32 @@ Answers
     
 26. The second constructor let me create a clock set to a specific time by taking the hour and minute I give it 
     
-27. 
+27. Both constructors set the hours and minutes, but the first starts at 00:00 while the second sets the time from parameters. 
+
+28. p1.print("file1.txt", true);
+    p1.print("file2.pdf", false);
+
+    int s1 = p1.getStatus(100);
+    int s2 = p1.getStatus(200); 
+    
+29. Circle, square, triangle and person are created by the constructor of Picture.
+
+30. roof.changeSize(60, 180);
+    roof.moveHorizontal(20);
+    roof.moveVertical(-60);
+    roof.makeVisible();
+
+31. No, it doesn't contain any internal method calls.
+
+32. The result of the expression "(8 % 3)" is 2  
+
+33. When I use the modulo operator with negative numbers, the result has the same sign as the dividend.
+
+34. All possible results are 0, 1, 2, 3, or 4 
+
+35. The result is always a number from 0 up to m - 1  
+
+37. The second way is easier
+    The second way is better because it keeps internal logic simple and supports AM/PM easily because It separates data from display and avoids complex logic.  
+
+   

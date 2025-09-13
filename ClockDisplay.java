@@ -24,7 +24,7 @@ public class ClockDisplay
      */
     public ClockDisplay()
     {
-        hours = new NumberDisplay(24);
+        hours = new NumberDisplay(12);
         minutes = new NumberDisplay(60);
         updateDisplay();
     }
@@ -78,7 +78,8 @@ public class ClockDisplay
      */
     private void updateDisplay()
     {
-        displayString = hours.getDisplayValue() + ":" + 
-                        minutes.getDisplayValue();
+         int rawHour = hours.getValue();
+         int displayHour = rawHour == 0 ? 12 : rawHour;
+         displayString = displayHour + ":" + minutes.getDisplayValue();
     }
 }
